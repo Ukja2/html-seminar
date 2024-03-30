@@ -1,16 +1,26 @@
-.container {
-    background-color: lightgray;
-    padding: 30px;
-    border: 3px solid blue;
+h1 {
+    color: blue;
 }
-.box{
-    width: 200px;
-    height: 100px;
+
+.intro{
+    font-size: 24px;
+    color: green;
+}
+
+#first {
+    font-weight: bold;
+    color: red;
+}
+
+div > span {
+    background-color: yellow;
+}
+
+a[href] {
+    text-decoration: none;
+    color: purple;
+}
+
+li.highlight {
     background-color: lightblue;
-    color: white;
-    text-align: center;
-    line-height: 100px;
-    margin: 20px;
-    border: 3px solid red;
-    padding: 20px;
 }
